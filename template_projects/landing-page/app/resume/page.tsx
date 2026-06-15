@@ -1,5 +1,5 @@
 // ============================================================
-// DIGITAL RESUME - John Smith
+// DIGITAL RESUME - Tiana Le
 // ============================================================
 
 import {
@@ -17,10 +17,10 @@ export default function ResumePage() {
           <div className="flex items-center gap-2 cursor-pointer">
             <a href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-white font-bold text-sm">
-                JS
+                TL
               </div>
               <span className="text-xl font-bold tracking-tight font-display text-slate-900 dark:text-white">
-                John Smith
+                Tiana Le
               </span>
             </a>
           </div>
@@ -29,7 +29,7 @@ export default function ResumePage() {
             <a href="#experience" className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 transition-colors">Experience</a>
             <a href="#skills" className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 transition-colors">Skills</a>
             <a href="#education" className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 transition-colors">Education</a>
-            <a href="mailto:john@email.com" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+            <a href="mailto:tiana.le.analyst@email.com" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
               Contact Me
             </a>
           </div>
@@ -45,10 +45,10 @@ export default function ResumePage() {
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="flex-grow">
                 <h1 className="text-4xl md:text-5xl font-bold font-display tracking-tight text-slate-900 dark:text-white mb-2">
-                  John Smith
+                  Tiana Le
                 </h1>
                 <p className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 font-medium mb-4">
-                  AI Orchestration Architect
+                  Senior Data & Business Analyst
                 </p>
 
                 {/* Quick info */}
@@ -64,13 +64,13 @@ export default function ResumePage() {
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    john@email.com
+                    tiana.le.analyst@email.com
                   </div>
                 </div>
 
                 {/* Professional Summary */}
                 <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
-                  Engineer, systems thinker, and builder specializing in designing intelligent systems where AI agents collaborate to solve complex problems. Over nine years of experience building and rebuilding systems with a focus on orchestration layers that coordinate multiple AI models and data sources.
+                  Highly analytical and results-oriented professional with a strong background in data analysis, business intelligence, and process optimization. Proven ability to translate complex data into actionable insights that drive strategic decisions and improve operational efficiency.
                 </p>
 
                 {/* Social links */}
@@ -104,20 +104,24 @@ export default function ResumePage() {
             <div className="space-y-8">
               <div className="relative pl-8 pb-8 border-l-2 border-blue-200 dark:border-blue-800">
                 <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-blue-600"></div>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-white">AI Orchestration Platforms</h3>
-                <p className="text-blue-600 dark:text-blue-400 font-medium mb-3">Lead Architect</p>
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white">Data & Business Analyst Experience</h3>
+                <p className="text-blue-600 dark:text-blue-400 font-medium mb-3">Senior Data Analyst</p>
                 <ul className="space-y-2 text-slate-600 dark:text-slate-400">
                   <li className="flex items-start gap-2">
                     <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                    <span>Built multi-agent platforms processing millions of documents, saving thousands of hours of human review time.</span>
+                    <span>Led data analysis initiatives to identify key performance indicators (KPIs) and drive strategic business improvements.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                    <span>Designed intelligent routing layers that reduced AI compute costs by over 50%.</span>
+                    <span>Developed and maintained interactive dashboards and reports using Tableau/Power BI to visualize complex datasets.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                    <span>Architected orchestration systems adopted across entire engineering organizations for production-grade AI.</span>
+                    <span>Performed in-depth market research and competitive analysis to inform product development and market entry strategies.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
+                    <span>Streamlined data collection and reporting processes, reducing manual effort by 25% and improving data accuracy.</span>
                   </li>
                 </ul>
               </div>
@@ -139,9 +143,9 @@ export default function ResumePage() {
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white dark:bg-slate-800 rounded-2xl p-6">
-                <h3 className="font-semibold text-slate-900 dark:text-white mb-4">AI & Machine Learning</h3>
+                <h3 className="font-semibold text-slate-900 dark:text-white mb-4">Data Analysis & Business Intelligence</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Multi-Agent Systems', 'LLM Orchestration', 'RAG at Scale', 'Intelligent Routing', 'Prompt Engineering', 'Model Optimization'].map((skill) => (
+                  {[ 'Data Modeling', 'SQL', 'Python (Pandas, NumPy)', 'Tableau', 'Power BI', 'Excel', 'Statistical Analysis', 'ETL Processes' ].map((skill) => (
                     <span key={skill} className="bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-3 py-1.5 rounded-lg text-sm">
                       {skill}
                     </span>
@@ -150,9 +154,9 @@ export default function ResumePage() {
               </div>
 
               <div className="bg-white dark:bg-slate-800 rounded-2xl p-6">
-                <h3 className="font-semibold text-slate-900 dark:text-white mb-4">Systems Engineering</h3>
+                <h3 className="font-semibold text-slate-900 dark:text-white mb-4">Tools & Methodologies</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Distributed Systems', 'System Architecture', 'Cloud Infrastructure', 'API Design', 'Performance Tuning', 'Scalability'].map((skill) => (
+                  {[ 'Agile Methodologies', 'Project Management', 'Cloud Platforms (AWS, GCP)', 'Version Control (Git)', 'Data Governance', 'Requirements Gathering' ].map((skill) => (
                     <span key={skill} className="bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 px-3 py-1.5 rounded-lg text-sm">
                       {skill}
                     </span>
@@ -180,8 +184,8 @@ export default function ResumePage() {
               <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-2">
                   <div>
-                    <h3 className="text-lg font-bold text-slate-900 dark:text-white">M.S. in Computer Science</h3>
-                    <p className="text-blue-600 dark:text-blue-400">Stanford University</p>
+                    <h3 className="text-lg font-bold text-slate-900 dark:text-white">M.S. in Data Analytics</h3>
+                    <p className="text-blue-600 dark:text-blue-400">Your University Here</p>
                   </div>
                 </div>
               </div>
@@ -189,8 +193,8 @@ export default function ResumePage() {
               <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-2">
                   <div>
-                    <h3 className="text-lg font-bold text-slate-900 dark:text-white">B.S. in Computer Engineering</h3>
-                    <p className="text-blue-600 dark:text-blue-400">University of Michigan</p>
+                    <h3 className="text-lg font-bold text-slate-900 dark:text-white">B.S. in Business Administration</h3>
+                    <p className="text-blue-600 dark:text-blue-400">Your University Here</p>
                   </div>
                 </div>
               </div>
@@ -203,7 +207,7 @@ export default function ResumePage() {
       <footer className="py-8 bg-slate-100 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center text-sm text-slate-600 dark:text-slate-400">
-            © {new Date().getFullYear()} John Smith. All rights reserved.
+            © {new Date().getFullYear()} Tiana Le. All rights reserved.
           </div>
         </div>
       </footer>

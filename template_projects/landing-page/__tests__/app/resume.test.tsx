@@ -8,9 +8,9 @@ describe("Resume page", () => {
     expect(screen.getByRole("main")).toBeInTheDocument();
   });
 
-  it("contains John Smith's name", () => {
+  it("contains Tiana Le's name", () => {
     render(<ResumePage />);
-    const nameHeading = screen.getByRole("heading", { level: 1, name: /John Smith/i });
+    const nameHeading = screen.getByRole("heading", { level: 1, name: /Tiana Le/i });
     expect(nameHeading).toBeInTheDocument();
   });
 
